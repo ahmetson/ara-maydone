@@ -58,7 +58,18 @@ const Details: NextPage<DetailsType> = ({ className = '' }) => {
           </a>
         </div>
         <div className={styles.price}>$50</div>
-        <div className={styles.goal}>Pledged Goal to initiate: 700$, until 25th June 2024</div>
+        <div className={'mb-1 flex justify-between'}>
+          <span className='font-medium text-blue-700 dark:text-white'>Pledged Goal to initiate: 700$</span>
+          <span>{'        '}</span>
+          <span className='font-medium text-blue-700 dark:text-white'>Until 25th June 2024</span>
+        </div>
+        <div className='w-full bg-gray-200 rounded-full dark:bg-gray-700'>
+          <div
+            className='bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full'
+            style={{ width: '45%' }}>
+            45%
+          </div>
+        </div>
         <div className={styles.description}>
           <p className={styles.frogWarsIs}>Frog Wars is the fighting game with the Mad Frogs NFTs.</p>
           <p className={styles.hereWeWant}>The goal of this launchpad is to create a multiplayer fighting game.</p>
