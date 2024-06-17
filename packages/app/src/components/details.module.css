@@ -91,9 +91,10 @@
   color: var(--color-black);
 }
 .goal {
-  height: 20px;
+  margin-top: -10px;
+  height: 17px;
   font-size: var(--font-size-sm);
-  line-height: 20px;
+  line-height: 17px;
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;

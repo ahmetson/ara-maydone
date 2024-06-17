@@ -28,17 +28,17 @@ export const Header: NextPage<MainType> = ({ className = '' }) => {
         <nav className={styles.navigation}>
           <div className={styles.buttons}>
             <LinkComponent href='https://forum.ara.foundation/d/1-must-read-ara-forum-guideline'>
-              <div className={styles.guide}>Guide</div>
+              <div className={styles.guide + ' hover:underline'}>Guide</div>
             </LinkComponent>
           </div>
           <div className={styles.buttons1}>
             <LinkComponent href='https://forum.ara.foundation/'>
-              <div className={styles.forum}>Forum</div>
+              <div className={styles.forum + ' hover:underline'}>Forum</div>
             </LinkComponent>
           </div>
           <div className={styles.buttons2}>
             <LinkComponent href='https://ara.foundation/'>
-              <div className={styles.ara1}>Ara</div>
+              <div className={styles.ara1 + ' hover:underline'}>Ara</div>
             </LinkComponent>
           </div>
           <Connect />

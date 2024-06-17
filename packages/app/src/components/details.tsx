@@ -1,75 +1,93 @@
-import type { NextPage } from "next";
-import styles from "./details.module.css";
+import type { NextPage } from 'next'
+import styles from './details.module.css'
+import { LinkComponent } from './LinkComponent'
 
 export type DetailsType = {
-  className?: string;
-};
+  className?: string
+}
 
-const Details: NextPage<DetailsType> = ({ className = "" }) => {
+const Details: NextPage<DetailsType> = ({ className = '' }) => {
   return (
-    <div className={[styles.details, className].join(" ")}>
+    <div className={[styles.details, className].join(' ')}>
       <div className={styles.projectImageParent}>
         <div className={styles.projectImage}>
-          <img
-            className={styles.imageIcon}
-            loading="lazy"
-            alt=""
-            src="/image@2x.png"
-          />
+          <img className={styles.imageIcon} loading='lazy' alt='' src='/image@2x.png' />
         </div>
         <div className={styles.parametersParent}>
+          <hr className='h-px my-8 bg-gray-200 border-0 dark:bg-gray-700' style={{ width: '100%' }} />
           <div className={styles.parameters}>Parameters</div>
           <div className={styles.ideaAraAuroraContainer}>
-            <p className={styles.ideaAraAurora}>{`Idea: <ara aurora link>`}</p>
-            <p
-              className={styles.detailsOfThe}
-            >{`Details of the Budget spending is here in Proposal: <maydone link>`}</p>
+            <p className={styles.ideaAraAurora}>
+              Idea:{' '}
+              <LinkComponent
+                href='https://forum.ara.foundation/d/16-frog-wars-a-fighting-game'
+                className='text-blue-600 dark:text-blue-500 hover:underline'>
+                Aurora: Frog Wars - a fighting game
+              </LinkComponent>
+            </p>
+            <p className={styles.detailsOfThe}>
+              Details of the Budget spending is here in Proposal:{' '}
+              <LinkComponent
+                href='https://forum.ara.foundation/d/19-frog-wars-a-fighting-game-proposal'
+                className='text-blue-600 dark:text-blue-500 hover:underline'>
+                Maydone: Frog Wars - a fighting game proposal
+              </LinkComponent>
+            </p>
             <p className={styles.maintainerResponsibleFor}>
-              Maintainer (responsible for your success of the game): Medet
-              Ahmetson
+              Maintainer <i>(responsible for your success of the game)</i>:{' '}
+              <LinkComponent
+                href='https://forum.ara.foundation/u/ahmetson'
+                className='text-blue-600 dark:text-blue-500 hover:underline'>
+                Medet Ahmetson
+              </LinkComponent>
             </p>
           </div>
         </div>
-        <div className={styles.whyItsSafe}>Why it’s safe to fund</div>
+        <hr className='h-px my-8 bg-gray-200 border-0 dark:bg-gray-700' style={{ width: '100%' }} />
+        <div className={styles.whyItsSafe}>Why it's safe to fund?</div>
       </div>
       <div className={styles.funding}>
         <h1 className={styles.productName}>Frog Wars</h1>
-        <div className={styles.subheading}>by Dao FrogWifCat</div>
-        <div className={styles.price}>$50</div>
-        <div className={styles.goal}>
-          Pledged Goal to initiate: 700$, until 25th June 2024
+        <div className={styles.subheading}>
+          by{' '}
+          <a
+            href='https://dao.frogwifcat.com/'
+            target='_blank'
+            className='text-blue-600 dark:text-blue-500 hover:underline'>
+            Dao FrogWifCat
+          </a>
         </div>
+        <div className={styles.price}>$50</div>
+        <div className={styles.goal}>Pledged Goal to initiate: 700$, until 25th June 2024</div>
         <div className={styles.description}>
-          <p className={styles.frogWarsIs}>
-            Frog Wars is the fighting game with the Mad Frogs NFTs.
-          </p>
-          <p className={styles.hereWeWant}>
-            Here we want for the Dao a place to play a fighting game along with
-            the people using your NFTs.
-          </p>
+          <p className={styles.frogWarsIs}>Frog Wars is the fighting game with the Mad Frogs NFTs.</p>
+          <p className={styles.hereWeWant}>The goal of this launchpad is to create a multiplayer fighting game.</p>
         </div>
         <button className={styles.button}>
           <div className={styles.backThisProject}>Back this project</div>
         </button>
         <div className={styles.thisProjectRequiresContainer}>
-          <p className={styles.thisProjectRequires}>
-            This project requires WEF crypto on Linea network.
-          </p>
+          <p className={styles.thisProjectRequires}>This project requires WEF crypto on Linea network.</p>
           <p className={styles.purchaseWefToken}>
-            Purchase WEF token on Nile Exchange, after setting up your Linea
-            account.
+            Purchase WEF token on Nile Exchange, after setting up your Linea account.
           </p>
         </div>
         <div className={styles.perksForBacking}>Perks for backing:</div>
         <div className={styles.youGetFree}>
-          You get free Mad Frogs NFT. You can use this to play the game.
-          Meanwhile you can invest it for a passive income at
-          https://stake.frogwifcat.com/ which returns 82% of your investment
-          annually.
+          You get free Mad Frogs NFT. You can use this to play the game. Meanwhile you can invest it for a passive
+          income at{' '}
+          <a
+            href='https://stake.frogwifcat.com/'
+            target='_blank'
+            className='text-blue-600 dark:text-blue-500 hover:underline'
+            style={{ display: 'contents' }}>
+            MF Stake
+          </a>{' '}
+          which returns 82% of your investment annually.
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Details;
+export default Details
