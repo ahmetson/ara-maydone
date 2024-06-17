@@ -1,0 +1,119 @@
+.blankLine,
+.ifYouSee,
+.inThePage,
+.thisFundingGoes {
+  margin: 0;
+}
+.thisFundingGoesContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.instructions {
+  width: 625px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.requiredAKnowledge,
+.requiredMore50,
+.requiresEthOn {
+  margin-bottom: 0;
+}
+.requiredAKnowledgeOnUsing {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.requiredAKnowledgeContainer {
+  width: 1203px;
+  display: flex;
+  align-items: center;
+  max-height: 150px;
+  word-break: break-word;
+}
+.perksForBacking,
+.requiredAKnowledgeContainer,
+.youGetFree {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.perksForBacking {
+  align-self: stretch;
+}
+.youGetFree {
+  width: 1203px;
+  color: var(--color-darkolivegreen-100);
+  display: flex;
+  align-items: center;
+  max-height: 48px;
+  word-break: break-word;
+}
+.perks {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--small-text-size);
+  color: var(--color-darkolivegreen-200);
+}
+.fundingInfo,
+.instructionsParent,
+.knowledge,
+.perks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.knowledge {
+  align-self: stretch;
+  gap: var(--gap-23xl);
+  font-size: var(--body-text-size);
+  color: var(--color-dimgray-100);
+}
+.fundingInfo,
+.instructionsParent {
+  max-width: 100%;
+}
+.instructionsParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.fundingInfo {
+  width: 1203px;
+  gap: var(--gap-42xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 750px) {
+  .knowledge {
+    gap: var(--gap-2xl);
+  }
+  .fundingInfo {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .thisFundingGoesContainer {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .instructions {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .requiredAKnowledgeContainer {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .fundingInfo {
+    gap: var(--gap-mini);
+  }
+}

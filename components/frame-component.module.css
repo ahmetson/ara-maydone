@@ -1,0 +1,208 @@
+.ara {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 33px;
+}
+.araLogo1Icon {
+  height: 43px;
+  width: 44px;
+  position: absolute;
+  margin: 0 !important;
+  right: -6px;
+  bottom: -7px;
+  object-fit: cover;
+  z-index: 1;
+}
+.empty {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.araProjectRealizations {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-crimson);
+  white-space: nowrap;
+}
+.details,
+.realization {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.realization {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.guide {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 57px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.forum {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+}
+.buttons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.ara1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 33px;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.connectWallet {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 117px;
+}
+.button,
+.navigation,
+.realizationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-mediumorchid-200);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-mediumorchid-100);
+}
+.navigation,
+.realizationParent {
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  color: var(--color-mediumorchid-200);
+}
+.realizationParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+.projectRealizations {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ifYouWant,
+.inThisWeb {
+  margin: 0;
+}
+.inThisWebContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 150%;
+  color: var(--color-dimgray-200);
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameParent,
+.portfolioInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1280px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-46xl);
+}
+.portfolioInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 750px) {
+  .navigation {
+    display: none;
+  }
+  .projectRealizations {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation {
+    gap: var(--gap-5xl);
+  }
+  .projectRealizations {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}

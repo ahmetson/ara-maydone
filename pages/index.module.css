@@ -1,0 +1,114 @@
+.project,
+.right {
+  display: flex;
+  align-items: flex-start;
+}
+.project {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.right {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-61xl) 141px;
+}
+.divider,
+.dividerWrapper,
+.right {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-mediumorchid-200);
+}
+.dividerWrapper {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-60xl) 0 var(--padding-61xl);
+}
+.araProjectRealizations,
+.contactMedetarafoundationF {
+  margin: 0;
+}
+.araProjectRealizationsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 150%;
+  font-family: var(--small-text);
+  color: var(--color-gray-200);
+  text-align: center;
+}
+.navigationFooter,
+.productDetailPage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.navigationFooter {
+  align-self: stretch;
+  background: linear-gradient(0deg, #fff, #ce98cc);
+  align-items: flex-start;
+  padding: var(--padding-12xs) 0 var(--padding-8xl);
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.productDetailPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-18xl) 0 0;
+  gap: 75px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .right {
+    padding-bottom: 92px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .right {
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dividerWrapper,
+  .right {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .dividerWrapper {
+    padding-right: var(--padding-20xl);
+  }
+  .navigationFooter {
+    gap: var(--gap-2xl);
+  }
+  .productDetailPage {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .right {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .productDetailPage {
+    gap: 19px;
+  }
+}

@@ -1,0 +1,90 @@
+.imageIcon {
+  align-self: stretch;
+  height: 231px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frogWars,
+.frogWarsIs,
+.fundedEnds {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.frogWars {
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.frogWarsIs,
+.fundedEnds {
+  font-weight: 500;
+}
+.copy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.viewProject {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-mediumorchid-200);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-mediumorchid-100);
+}
+.card {
+  width: 621px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 590px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-100);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 675px) {
+  .card {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frogWars {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frogWarsIs,
+  .fundedEnds {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+}
