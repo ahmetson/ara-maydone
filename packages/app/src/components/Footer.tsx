@@ -3,27 +3,18 @@ import { SITE_EMOJI, SITE_INFO, SOCIAL_GITHUB, SOCIAL_TWITTER } from '@/utils/si
 import { FaGithub, FaXTwitter } from 'react-icons/fa6'
 import { NetworkStatus } from './NetworkStatus'
 import { LinkComponent } from './LinkComponent'
+import styles from '@/assets/index.module.css'
 
 export function Footer() {
   return (
-    <>
-      <div className='place-self-end'>
-        <NetworkStatus />
+    <div className={styles.navigationFooter}>
+      <div className={styles.dividerWrapper}>
+        <div className={styles.divider} />
       </div>
-
-      <footer className='sticky top-[100vh] footer flex justify-between items-center bg-neutral text-neutral-content p-4'>
-        <p>
-          {SITE_EMOJI} {SITE_INFO}
-        </p>
-        <div className='flex gap-4'>
-          <LinkComponent href={`https://github.com/${SOCIAL_GITHUB}`}>
-            <FaGithub />
-          </LinkComponent>
-          <LinkComponent href={`https://twitter.com/${SOCIAL_TWITTER}`}>
-            <FaXTwitter />
-          </LinkComponent>
-        </div>
+      <footer className={styles.araProjectRealizationsContainer}>
+        <p className={styles.araProjectRealizations}>Ara project realizations.</p>
+        <p className={styles.contactMedetarafoundationF}>Contact medet@ara.foundation for questions!</p>
       </footer>
-    </>
+    </div>
   )
 }

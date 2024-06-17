@@ -5,13 +5,14 @@ import { BellIcon as BellOutline, XCircleIcon } from '@heroicons/react/24/outlin
 import { BellIcon as BellSolid } from '@heroicons/react/24/solid'
 import { useNotifications } from '@/context/Notifications'
 import { Alert } from './Alert'
+import styles from './main.module.css'
 
 export function NotificationsDrawer() {
   const { notifications, Clear } = useNotifications()
   const className = 'shrink-0 h-5 w-5'
 
   return (
-    <div className='drawer drawer-end'>
+    <div className={'drawer drawer-end ' + styles.buttons}>
       <input id='my-drawer' type='checkbox' className='drawer-toggle' />
       <div className='drawer-content'>
         <label
