@@ -6,6 +6,7 @@ import React from 'react'
 export type DetailsType = {
   className?: string
   params?: DetailsParams
+  status: 'disconnected' | 'connected' | 'reconnecting' | 'connecting'
 }
 
 export type DetailsParams = {
@@ -25,7 +26,7 @@ export type DetailsParams = {
   perks?: React.ReactElement
 }
 
-const Details: NextPage<DetailsType> = ({ className = '', params }) => {
+const Details: NextPage<DetailsType> = ({ className = '', params, status }) => {
   return (
     <div className={[styles.details, className].join(' ')}>
       <div className={styles.projectImageParent}>
@@ -75,9 +76,9 @@ const Details: NextPage<DetailsType> = ({ className = '', params }) => {
           </a>
         </div>
         <div className={styles.price}>$50</div>
-        <div className={'mb-1 flex'}>
-          <p className='font-medium text-blue-700 dark:text-white'>Pledged Goal to initiate: 700$</p>
-          <p className='font-medium text-blue-700 dark:text-white'>Until 25th June 2024</p>
+        <div className={'mb-1 flex flex-col'}>
+          <p className='font-medium text-blue-700 dark:text-white'>Goal: 700$</p>
+          <p className='font-medium text-blue-700 dark:text-white'>Deadline: 25th June 2024</p>
         </div>
         <div className='w-full bg-gray-200 rounded-full dark:bg-gray-700'>
           <div
@@ -89,9 +90,15 @@ const Details: NextPage<DetailsType> = ({ className = '', params }) => {
         <div className={styles.description}>
           <p className={styles.frogWarsIs}>{params?.description}</p>
         </div>
-        <button className={styles.button}>
-          <div className={styles.backThisProject}>Back this project</div>
-        </button>
+        {status === 'connected' ? (
+          <button className={styles.button}>
+            <div className={styles.backThisProject}>Back this project</div>
+          </button>
+        ) : (
+          <button className={styles.disabledButton} disabled>
+            <div className={styles.backThisProject}>Connect Wallet</div>
+          </button>
+        )}
         <div className={styles.thisProjectRequiresContainer}>
           <p className={styles.thisProjectRequires}>{params?.notice}</p>
         </div>

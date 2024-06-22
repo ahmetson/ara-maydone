@@ -138,6 +138,19 @@
 .button:hover {
   background-color: var(--color-darkslategray);
 }
+.disabledButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: var(--color-darkslategray);
+  align-self: stretch;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
 .purchaseWefToken,
 .thisProjectRequires {
   margin: 0;

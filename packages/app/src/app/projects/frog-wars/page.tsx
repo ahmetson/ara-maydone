@@ -1,10 +1,15 @@
+'use client'
+
 import styles from '@/assets/index.module.css'
 import { LinkComponent } from '@/components/LinkComponent'
 import Details, { DetailsParams, DetailsType } from '@/components/details'
 import FundingInfo from '@/components/funding-info'
 import { ReactElement } from 'react'
+import { useAccount } from 'wagmi'
 
 export default function Home() {
+  const { status } = useAccount()
+
   const details: DetailsParams = {
     video: '/FrogWars.mp4',
     aurora: 'Frog Wars - a fighting game',
@@ -70,7 +75,7 @@ export default function Home() {
           role='alert'>
           <span className='font-medium'>No wallet!</span> Connect your wallet to see project details.
         </div>
-        <Details params={details} />
+        <Details params={details} status={status} />
         <FundingInfo perks={details.perks} instructions={instructions} />
       </div>
     </div>
