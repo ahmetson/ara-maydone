@@ -10,7 +10,7 @@ const ProductDetailPage: NextPage = () => {
       <Main />
       <main className={styles.right}>
         <section className={styles.project}>
-          <Details />
+          <Details status='disconnected' />
           <FundingInfo />
         </section>
       </main>
