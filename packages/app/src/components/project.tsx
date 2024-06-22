@@ -11,6 +11,7 @@ const Project: NextPage<ProjectType> = ({ className = '' }) => {
     <section className={[styles.project, className].join(' ')}>
       <div className={styles.projects}>
         <Card
+          video='/FrogWars.mp4'
           image='/image1@2x.png'
           frogWars='Frog Wars'
           frogWarsIsAFightingGameIn='The first meme coin with the fighting game'

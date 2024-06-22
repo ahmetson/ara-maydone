@@ -1,12 +1,15 @@
 import type { NextPage } from 'next'
 import styles from './funding-info.module.css'
 import { LinkComponent } from './LinkComponent'
+import { ReactElement } from 'react'
 
 export type FundingInfoType = {
   className?: string
+  perks?: ReactElement
+  instructions?: Array<ReactElement>
 }
 
-const FundingInfo: NextPage<FundingInfoType> = ({ className = '' }) => {
+const FundingInfo: NextPage<FundingInfoType> = ({ className = '', perks, instructions }) => {
   return (
     <div className={[styles.fundingInfo, className].join(' ')}>
       <div className={styles.thisFundingGoesContainer}>
@@ -29,34 +32,16 @@ const FundingInfo: NextPage<FundingInfoType> = ({ className = '' }) => {
         <div className={styles.knowledge}>
           <div className={styles.requiredAKnowledgeContainer}>
             <ul className={styles.requiredAKnowledgeOnUsing}>
-              <li className={styles.requiredAKnowledge}>
-                - Required a knowledge on using Cryptocurrencies and Blockchain Wallets.
-              </li>
-              <li className={styles.requiredMore50}>- Required more 50$ worth ETH cryptocurrency.</li>
-              <li className={styles.requiresEthOn}>
-                {`- Requires ETH on Linea blockchain. If you don't have then bridge from Ethereum to Linea on` + ' '}
-                <LinkComponent
-                  href='https://bridge.linea.build'
-                  className='text-blue-600 dark:text-blue-500 hover:underline'>
-                  bridge.linea.build
-                </LinkComponent>
-              </li>
-              <li>
-                - Requires 50$ worth WEF. Swap some of your ETH to WEF on{' '}
-                <LinkComponent
-                  href='https://www.nile.build/swap?to=0x889400fB9BDE04BFdf353cC718fED3d6dDcF735F'
-                  className='text-blue-600 dark:text-blue-500 hover:underline'>
-                  Nile Exchange (WEF/ETH)
-                </LinkComponent>
-              </li>
+              {instructions?.map((o, i) => (
+                <li className={styles.requiredAKnowledge} key={i}>
+                  {o}
+                </li>
+              ))}
             </ul>
           </div>
           <div className={styles.perks}>
             <div className={styles.perksForBacking}>Perks for backing:</div>
-            <div className={styles.youGetFree}>
-              You get free Mad Frogs NFT. You can use this to play the game. Meanwhile you can invest it for a passive
-              income at https://stake.frogwifcat.com/ which returns 82% of your investment annually.
-            </div>
+            <div className={styles.youGetFree}>{perks}</div>
           </div>
         </div>
       </div>

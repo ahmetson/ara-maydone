@@ -4,6 +4,7 @@ import { LinkComponent } from './LinkComponent'
 
 export type CardType = {
   className?: string
+  video?: string
   image?: string
   frogWars?: string
   frogWarsIsAFightingGameIn?: string
@@ -13,6 +14,7 @@ export type CardType = {
 
 const Card: NextPage<CardType> = ({
   className = '',
+  video,
   image,
   frogWars,
   frogWarsIsAFightingGameIn,
@@ -21,7 +23,15 @@ const Card: NextPage<CardType> = ({
 }) => {
   return (
     <div className={[styles.card, className].join(' ')}>
-      <img className={styles.imageIcon} loading='lazy' alt='' src={image} />
+      {video ? (
+        <video className={styles.imageIcon} width='740' height='480' preload='auto' autoPlay loop muted playsInline>
+          <source src={video} type='video/mp4' />
+          {/* <track src='/path/to/captions.vtt' kind='subtitles' srcLang='en' label='English' /> */}
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <img className={styles.imageIcon} loading='lazy' alt='' src={image} />
+      )}
       <div className={styles.copy}>
         <div className={styles.frogWars}>{frogWars}</div>
         <div className={styles.frogWarsIs}>{frogWarsIsAFightingGameIn}</div>

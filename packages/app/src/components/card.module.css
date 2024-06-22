@@ -1,6 +1,5 @@
 .imageIcon {
   align-self: stretch;
-  height: 231px;
   position: relative;
   border-radius: var(--br-5xs);
   max-width: 100%;

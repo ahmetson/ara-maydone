@@ -162,7 +162,7 @@
 .frameParent,
 .portfolioInner {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
   max-width: 100%;
 }
 .frameParent {
