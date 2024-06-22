@@ -10,7 +10,8 @@ import {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const araTokenAbi = [
   { type: 'error', inputs: [], name: 'AccessControlBadConfirmation' },
@@ -295,14 +296,17 @@ export const araTokenAbi = [
 ] as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const araTokenAddress = {
   59141: '0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f',
+  59144: '0x889400fB9BDE04BFdf353cC718fED3d6dDcF735F',
 } as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const araTokenConfig = { address: araTokenAddress, abi: araTokenAbi } as const
 
@@ -2611,7 +2615,8 @@ export const ownableUpgradeableAbi = [
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const projectCheckTokenAbi = [
   {
@@ -3017,14 +3022,17 @@ export const projectCheckTokenAbi = [
 ] as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const projectCheckTokenAddress = {
   59141: '0x0011764BfeeB78859dD044023AF6b6b6e17715f7',
+  59144: '0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996',
 } as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const projectCheckTokenConfig = { address: projectCheckTokenAddress, abi: projectCheckTokenAbi } as const
 
@@ -3033,7 +3041,8 @@ export const projectCheckTokenConfig = { address: projectCheckTokenAddress, abi:
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const projectMainTokenAbi = [
   {
@@ -3325,14 +3334,17 @@ export const projectMainTokenAbi = [
 ] as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const projectMainTokenAddress = {
   59141: '0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a',
+  59144: '0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0',
 } as const
 
 /**
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const projectMainTokenConfig = { address: projectMainTokenAddress, abi: projectMainTokenAbi } as const
 
@@ -3359,14 +3371,16 @@ export const reentrancyGuardUpgradeableAbi = [
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraToken = /*#__PURE__*/ createReadContract({ abi: araTokenAbi, address: araTokenAddress })
 
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"DEFAULT_ADMIN_ROLE"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenDefaultAdminRole = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3377,7 +3391,8 @@ export const readAraTokenDefaultAdminRole = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"MINTER_ROLE"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenMinterRole = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3388,7 +3403,8 @@ export const readAraTokenMinterRole = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"allowance"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenAllowance = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3399,7 +3415,8 @@ export const readAraTokenAllowance = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"balanceOf"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenBalanceOf = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3410,7 +3427,8 @@ export const readAraTokenBalanceOf = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"cap"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenCap = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3421,7 +3439,8 @@ export const readAraTokenCap = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"decimals"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenDecimals = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3432,7 +3451,8 @@ export const readAraTokenDecimals = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"getRoleAdmin"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenGetRoleAdmin = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3443,7 +3463,8 @@ export const readAraTokenGetRoleAdmin = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"hasRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenHasRole = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3454,7 +3475,8 @@ export const readAraTokenHasRole = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"name"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenName = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3465,7 +3487,8 @@ export const readAraTokenName = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"supportsInterface"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenSupportsInterface = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3476,7 +3499,8 @@ export const readAraTokenSupportsInterface = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"symbol"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenSymbol = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3487,7 +3511,8 @@ export const readAraTokenSymbol = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"totalSupply"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const readAraTokenTotalSupply = /*#__PURE__*/ createReadContract({
   abi: araTokenAbi,
@@ -3498,14 +3523,16 @@ export const readAraTokenTotalSupply = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraToken = /*#__PURE__*/ createWriteContract({ abi: araTokenAbi, address: araTokenAddress })
 
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenApprove = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3516,7 +3543,8 @@ export const writeAraTokenApprove = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"burn"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenBurn = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3527,7 +3555,8 @@ export const writeAraTokenBurn = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"grantRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenGrantRole = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3538,7 +3567,8 @@ export const writeAraTokenGrantRole = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"initialize"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenInitialize = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3549,7 +3579,8 @@ export const writeAraTokenInitialize = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"mint"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenMint = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3560,7 +3591,8 @@ export const writeAraTokenMint = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"renounceRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenRenounceRole = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3571,7 +3603,8 @@ export const writeAraTokenRenounceRole = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"revokeRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenRevokeRole = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3582,7 +3615,8 @@ export const writeAraTokenRevokeRole = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenTransfer = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3593,7 +3627,8 @@ export const writeAraTokenTransfer = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const writeAraTokenTransferFrom = /*#__PURE__*/ createWriteContract({
   abi: araTokenAbi,
@@ -3604,14 +3639,16 @@ export const writeAraTokenTransferFrom = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraToken = /*#__PURE__*/ createSimulateContract({ abi: araTokenAbi, address: araTokenAddress })
 
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenApprove = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3622,7 +3659,8 @@ export const simulateAraTokenApprove = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"burn"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenBurn = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3633,7 +3671,8 @@ export const simulateAraTokenBurn = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"grantRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenGrantRole = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3644,7 +3683,8 @@ export const simulateAraTokenGrantRole = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"initialize"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenInitialize = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3655,7 +3695,8 @@ export const simulateAraTokenInitialize = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"mint"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenMint = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3666,7 +3707,8 @@ export const simulateAraTokenMint = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"renounceRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenRenounceRole = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3677,7 +3719,8 @@ export const simulateAraTokenRenounceRole = /*#__PURE__*/ createSimulateContract
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"revokeRole"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenRevokeRole = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3688,7 +3731,8 @@ export const simulateAraTokenRevokeRole = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenTransfer = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3699,7 +3743,8 @@ export const simulateAraTokenTransfer = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link araTokenAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const simulateAraTokenTransferFrom = /*#__PURE__*/ createSimulateContract({
   abi: araTokenAbi,
@@ -3710,14 +3755,16 @@ export const simulateAraTokenTransferFrom = /*#__PURE__*/ createSimulateContract
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenEvent = /*#__PURE__*/ createWatchContractEvent({ abi: araTokenAbi, address: araTokenAddress })
 
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"Approval"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenApprovalEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -3728,7 +3775,8 @@ export const watchAraTokenApprovalEvent = /*#__PURE__*/ createWatchContractEvent
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"Initialized"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenInitializedEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -3739,7 +3787,8 @@ export const watchAraTokenInitializedEvent = /*#__PURE__*/ createWatchContractEv
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"RoleAdminChanged"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenRoleAdminChangedEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -3750,7 +3799,8 @@ export const watchAraTokenRoleAdminChangedEvent = /*#__PURE__*/ createWatchContr
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"RoleGranted"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenRoleGrantedEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -3761,7 +3811,8 @@ export const watchAraTokenRoleGrantedEvent = /*#__PURE__*/ createWatchContractEv
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"RoleRevoked"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenRoleRevokedEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -3772,7 +3823,8 @@ export const watchAraTokenRoleRevokedEvent = /*#__PURE__*/ createWatchContractEv
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link araTokenAbi}__ and `eventName` set to `"Transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x889400fb9bde04bfdf353cc718fed3d6ddcf735f)
  */
 export const watchAraTokenTransferEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: araTokenAbi,
@@ -6002,7 +6054,8 @@ export const watchOwnableUpgradeableOwnershipTransferredEvent = /*#__PURE__*/ cr
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckToken = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6012,7 +6065,8 @@ export const readProjectCheckToken = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"allowance"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenAllowance = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6023,7 +6077,8 @@ export const readProjectCheckTokenAllowance = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"balanceOf"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenBalanceOf = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6034,7 +6089,8 @@ export const readProjectCheckTokenBalanceOf = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"collateralVotings"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenCollateralVotings = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6045,7 +6101,8 @@ export const readProjectCheckTokenCollateralVotings = /*#__PURE__*/ createReadCo
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"collaterals"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenCollaterals = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6056,7 +6113,8 @@ export const readProjectCheckTokenCollaterals = /*#__PURE__*/ createReadContract
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"dao"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenDao = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6067,7 +6125,8 @@ export const readProjectCheckTokenDao = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"decimals"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenDecimals = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6078,7 +6137,8 @@ export const readProjectCheckTokenDecimals = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"isCollateral"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenIsCollateral = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6089,7 +6149,8 @@ export const readProjectCheckTokenIsCollateral = /*#__PURE__*/ createReadContrac
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"main"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenMain = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6100,7 +6161,8 @@ export const readProjectCheckTokenMain = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"name"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenName = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6111,7 +6173,8 @@ export const readProjectCheckTokenName = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectVotings"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenNewProjectVotings = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6122,7 +6185,8 @@ export const readProjectCheckTokenNewProjectVotings = /*#__PURE__*/ createReadCo
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"projectId"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenProjectId = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6133,7 +6197,8 @@ export const readProjectCheckTokenProjectId = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"projects"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenProjects = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6144,7 +6209,8 @@ export const readProjectCheckTokenProjects = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"symbol"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenSymbol = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6155,7 +6221,8 @@ export const readProjectCheckTokenSymbol = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"totalSupply"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const readProjectCheckTokenTotalSupply = /*#__PURE__*/ createReadContract({
   abi: projectCheckTokenAbi,
@@ -6166,7 +6233,8 @@ export const readProjectCheckTokenTotalSupply = /*#__PURE__*/ createReadContract
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckToken = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6176,7 +6244,8 @@ export const writeProjectCheckToken = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenApprove = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6187,7 +6256,8 @@ export const writeProjectCheckTokenApprove = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"cancelProject"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenCancelProject = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6198,7 +6268,8 @@ export const writeProjectCheckTokenCancelProject = /*#__PURE__*/ createWriteCont
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"initialize"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenInitialize = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6209,7 +6280,8 @@ export const writeProjectCheckTokenInitialize = /*#__PURE__*/ createWriteContrac
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"mint"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenMint = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6220,7 +6292,8 @@ export const writeProjectCheckTokenMint = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenNewProjectAction = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6231,7 +6304,8 @@ export const writeProjectCheckTokenNewProjectAction = /*#__PURE__*/ createWriteC
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenNewProjectInit = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6242,7 +6316,8 @@ export const writeProjectCheckTokenNewProjectInit = /*#__PURE__*/ createWriteCon
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenNewProjectVote = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6253,7 +6328,8 @@ export const writeProjectCheckTokenNewProjectVote = /*#__PURE__*/ createWriteCon
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"redeemFromTreasury"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenRedeemFromTreasury = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6264,7 +6340,8 @@ export const writeProjectCheckTokenRedeemFromTreasury = /*#__PURE__*/ createWrit
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenSetCollateralAction = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6275,7 +6352,8 @@ export const writeProjectCheckTokenSetCollateralAction = /*#__PURE__*/ createWri
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenSetCollateralInit = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6286,7 +6364,8 @@ export const writeProjectCheckTokenSetCollateralInit = /*#__PURE__*/ createWrite
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenSetCollateralVote = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6297,7 +6376,8 @@ export const writeProjectCheckTokenSetCollateralVote = /*#__PURE__*/ createWrite
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenTransfer = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6308,7 +6388,8 @@ export const writeProjectCheckTokenTransfer = /*#__PURE__*/ createWriteContract(
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const writeProjectCheckTokenTransferFrom = /*#__PURE__*/ createWriteContract({
   abi: projectCheckTokenAbi,
@@ -6319,7 +6400,8 @@ export const writeProjectCheckTokenTransferFrom = /*#__PURE__*/ createWriteContr
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckToken = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6329,7 +6411,8 @@ export const simulateProjectCheckToken = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenApprove = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6340,7 +6423,8 @@ export const simulateProjectCheckTokenApprove = /*#__PURE__*/ createSimulateCont
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"cancelProject"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenCancelProject = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6351,7 +6435,8 @@ export const simulateProjectCheckTokenCancelProject = /*#__PURE__*/ createSimula
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"initialize"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenInitialize = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6362,7 +6447,8 @@ export const simulateProjectCheckTokenInitialize = /*#__PURE__*/ createSimulateC
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"mint"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenMint = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6373,7 +6459,8 @@ export const simulateProjectCheckTokenMint = /*#__PURE__*/ createSimulateContrac
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenNewProjectAction = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6384,7 +6471,8 @@ export const simulateProjectCheckTokenNewProjectAction = /*#__PURE__*/ createSim
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenNewProjectInit = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6395,7 +6483,8 @@ export const simulateProjectCheckTokenNewProjectInit = /*#__PURE__*/ createSimul
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"newProjectVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenNewProjectVote = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6406,7 +6495,8 @@ export const simulateProjectCheckTokenNewProjectVote = /*#__PURE__*/ createSimul
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"redeemFromTreasury"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenRedeemFromTreasury = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6417,7 +6507,8 @@ export const simulateProjectCheckTokenRedeemFromTreasury = /*#__PURE__*/ createS
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenSetCollateralAction = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6428,7 +6519,8 @@ export const simulateProjectCheckTokenSetCollateralAction = /*#__PURE__*/ create
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenSetCollateralInit = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6439,7 +6531,8 @@ export const simulateProjectCheckTokenSetCollateralInit = /*#__PURE__*/ createSi
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"setCollateralVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenSetCollateralVote = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6450,7 +6543,8 @@ export const simulateProjectCheckTokenSetCollateralVote = /*#__PURE__*/ createSi
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenTransfer = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6461,7 +6555,8 @@ export const simulateProjectCheckTokenTransfer = /*#__PURE__*/ createSimulateCon
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const simulateProjectCheckTokenTransferFrom = /*#__PURE__*/ createSimulateContract({
   abi: projectCheckTokenAbi,
@@ -6472,7 +6567,8 @@ export const simulateProjectCheckTokenTransferFrom = /*#__PURE__*/ createSimulat
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6482,7 +6578,8 @@ export const watchProjectCheckTokenEvent = /*#__PURE__*/ createWatchContractEven
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"Approval"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenApprovalEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6493,7 +6590,8 @@ export const watchProjectCheckTokenApprovalEvent = /*#__PURE__*/ createWatchCont
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"CollateralVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenCollateralVoteEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6504,7 +6602,8 @@ export const watchProjectCheckTokenCollateralVoteEvent = /*#__PURE__*/ createWat
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"CollateralVotingAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenCollateralVotingActionEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6515,7 +6614,8 @@ export const watchProjectCheckTokenCollateralVotingActionEvent = /*#__PURE__*/ c
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"CollateralVotingInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenCollateralVotingInitEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6526,7 +6626,8 @@ export const watchProjectCheckTokenCollateralVotingInitEvent = /*#__PURE__*/ cre
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"Initialized"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenInitializedEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6537,7 +6638,8 @@ export const watchProjectCheckTokenInitializedEvent = /*#__PURE__*/ createWatchC
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"Mint"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenMintEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6548,7 +6650,8 @@ export const watchProjectCheckTokenMintEvent = /*#__PURE__*/ createWatchContract
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"NewProjectAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenNewProjectActionEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6559,7 +6662,8 @@ export const watchProjectCheckTokenNewProjectActionEvent = /*#__PURE__*/ createW
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"NewProjectInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenNewProjectInitEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6570,7 +6674,8 @@ export const watchProjectCheckTokenNewProjectInitEvent = /*#__PURE__*/ createWat
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"NewProjectVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenNewProjectVoteEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6581,7 +6686,8 @@ export const watchProjectCheckTokenNewProjectVoteEvent = /*#__PURE__*/ createWat
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectCheckTokenAbi}__ and `eventName` set to `"Transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x0011764BfeeB78859dD044023AF6b6b6e17715f7)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996)
  */
 export const watchProjectCheckTokenTransferEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectCheckTokenAbi,
@@ -6592,7 +6698,8 @@ export const watchProjectCheckTokenTransferEvent = /*#__PURE__*/ createWatchCont
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainToken = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6602,7 +6709,8 @@ export const readProjectMainToken = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"REVOKE_PERIOD"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenRevokePeriod = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6613,7 +6721,8 @@ export const readProjectMainTokenRevokePeriod = /*#__PURE__*/ createReadContract
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"allowance"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenAllowance = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6624,7 +6733,8 @@ export const readProjectMainTokenAllowance = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"balanceOf"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenBalanceOf = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6635,7 +6745,8 @@ export const readProjectMainTokenBalanceOf = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"dao"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenDao = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6646,7 +6757,8 @@ export const readProjectMainTokenDao = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"decimals"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenDecimals = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6657,7 +6769,8 @@ export const readProjectMainTokenDecimals = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"leader"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenLeader = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6668,7 +6781,8 @@ export const readProjectMainTokenLeader = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"name"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenName = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6679,7 +6793,8 @@ export const readProjectMainTokenName = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipId"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenReceivershipId = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6690,7 +6805,8 @@ export const readProjectMainTokenReceivershipId = /*#__PURE__*/ createReadContra
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokes"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenRevokes = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6701,7 +6817,8 @@ export const readProjectMainTokenRevokes = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"sessionId"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenSessionId = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6712,7 +6829,8 @@ export const readProjectMainTokenSessionId = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"symbol"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenSymbol = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6723,7 +6841,8 @@ export const readProjectMainTokenSymbol = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"totalSupply"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenTotalSupply = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6734,7 +6853,8 @@ export const readProjectMainTokenTotalSupply = /*#__PURE__*/ createReadContract(
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenTransfer = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6745,7 +6865,8 @@ export const readProjectMainTokenTransfer = /*#__PURE__*/ createReadContract({
 /**
  * Wraps __{@link readContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"transferFrom"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const readProjectMainTokenTransferFrom = /*#__PURE__*/ createReadContract({
   abi: projectMainTokenAbi,
@@ -6756,7 +6877,8 @@ export const readProjectMainTokenTransferFrom = /*#__PURE__*/ createReadContract
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainToken = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6766,7 +6888,8 @@ export const writeProjectMainToken = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenApprove = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6777,7 +6900,8 @@ export const writeProjectMainTokenApprove = /*#__PURE__*/ createWriteContract({
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenReceivershipAction = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6788,7 +6912,8 @@ export const writeProjectMainTokenReceivershipAction = /*#__PURE__*/ createWrite
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenReceivershipInit = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6799,7 +6924,8 @@ export const writeProjectMainTokenReceivershipInit = /*#__PURE__*/ createWriteCo
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenReceivershipVote = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6810,7 +6936,8 @@ export const writeProjectMainTokenReceivershipVote = /*#__PURE__*/ createWriteCo
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenRevokeAction = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6821,7 +6948,8 @@ export const writeProjectMainTokenRevokeAction = /*#__PURE__*/ createWriteContra
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenRevokeInit = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6832,7 +6960,8 @@ export const writeProjectMainTokenRevokeInit = /*#__PURE__*/ createWriteContract
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenRevokeVote = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6843,7 +6972,8 @@ export const writeProjectMainTokenRevokeVote = /*#__PURE__*/ createWriteContract
 /**
  * Wraps __{@link writeContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"transferInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const writeProjectMainTokenTransferInit = /*#__PURE__*/ createWriteContract({
   abi: projectMainTokenAbi,
@@ -6854,7 +6984,8 @@ export const writeProjectMainTokenTransferInit = /*#__PURE__*/ createWriteContra
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainToken = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6864,7 +6995,8 @@ export const simulateProjectMainToken = /*#__PURE__*/ createSimulateContract({
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"approve"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenApprove = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6875,7 +7007,8 @@ export const simulateProjectMainTokenApprove = /*#__PURE__*/ createSimulateContr
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenReceivershipAction = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6886,7 +7019,8 @@ export const simulateProjectMainTokenReceivershipAction = /*#__PURE__*/ createSi
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenReceivershipInit = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6897,7 +7031,8 @@ export const simulateProjectMainTokenReceivershipInit = /*#__PURE__*/ createSimu
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"receivershipVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenReceivershipVote = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6908,7 +7043,8 @@ export const simulateProjectMainTokenReceivershipVote = /*#__PURE__*/ createSimu
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenRevokeAction = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6919,7 +7055,8 @@ export const simulateProjectMainTokenRevokeAction = /*#__PURE__*/ createSimulate
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenRevokeInit = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6930,7 +7067,8 @@ export const simulateProjectMainTokenRevokeInit = /*#__PURE__*/ createSimulateCo
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"revokeVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenRevokeVote = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6941,7 +7079,8 @@ export const simulateProjectMainTokenRevokeVote = /*#__PURE__*/ createSimulateCo
 /**
  * Wraps __{@link simulateContract}__ with `abi` set to __{@link projectMainTokenAbi}__ and `functionName` set to `"transferInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const simulateProjectMainTokenTransferInit = /*#__PURE__*/ createSimulateContract({
   abi: projectMainTokenAbi,
@@ -6952,7 +7091,8 @@ export const simulateProjectMainTokenTransferInit = /*#__PURE__*/ createSimulate
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,
@@ -6962,7 +7102,8 @@ export const watchProjectMainTokenEvent = /*#__PURE__*/ createWatchContractEvent
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__ and `eventName` set to `"Approval"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenApprovalEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,
@@ -6973,7 +7114,8 @@ export const watchProjectMainTokenApprovalEvent = /*#__PURE__*/ createWatchContr
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__ and `eventName` set to `"RevokeAction"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenRevokeActionEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,
@@ -6984,7 +7126,8 @@ export const watchProjectMainTokenRevokeActionEvent = /*#__PURE__*/ createWatchC
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__ and `eventName` set to `"RevokeInit"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenRevokeInitEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,
@@ -6995,7 +7138,8 @@ export const watchProjectMainTokenRevokeInitEvent = /*#__PURE__*/ createWatchCon
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__ and `eventName` set to `"RevokeVote"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenRevokeVoteEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,
@@ -7006,7 +7150,8 @@ export const watchProjectMainTokenRevokeVoteEvent = /*#__PURE__*/ createWatchCon
 /**
  * Wraps __{@link watchContractEvent}__ with `abi` set to __{@link projectMainTokenAbi}__ and `eventName` set to `"Transfer"`
  *
- * [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Sepolia Testnet Etherscan__](https://sepolia.lineascan.build/address/0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a)
+ * - [__View Contract on Linea Mainnet Etherscan__](https://lineascan.build/address/0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0)
  */
 export const watchProjectMainTokenTransferEvent = /*#__PURE__*/ createWatchContractEvent({
   abi: projectMainTokenAbi,

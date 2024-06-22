@@ -1,7 +1,4 @@
-import { defaultWagmiConfig } from '@web3modal/wagmi/react/config'
-import { cookieStorage, createStorage } from 'wagmi'
-import { SITE_INFO, SITE_NAME, SITE_URL } from './site'
-import { ETH_CHAINS } from './network'
+import { linea, lineaSepolia } from 'viem/chains'
 
 export const WALLETCONNECT_PROJECT_ID = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? ''
 if (!WALLETCONNECT_PROJECT_ID) {
@@ -14,4 +11,4 @@ export const funding: { [key: string]: Funding } = {
   wagmi: {},
 }
 
-export const FROG_WARS_CHAIN_ID = 59141
+export const FROG_WARS_CHAIN_ID = process.env.NODE_ENV === 'production' ? linea.id : lineaSepolia.id

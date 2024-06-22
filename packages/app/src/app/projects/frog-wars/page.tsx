@@ -11,7 +11,7 @@ import { FROG_WARS_CHAIN_ID } from '@/utils/projects'
 
 // Blockchain parameters
 const projectId = 1 // FrogWars project ID on Check Token
-const deadline = 1721408400 // 25 June
+const deadline = 1721408400 // 20th July
 const currency = 'WEF'
 const tax = 1.0 // percentage
 
