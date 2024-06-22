@@ -4,11 +4,58 @@ import styles from '@/assets/index.module.css'
 import { LinkComponent } from '@/components/LinkComponent'
 import Details, { DetailsParams, DetailsType } from '@/components/details'
 import FundingInfo from '@/components/funding-info'
-import { ReactElement } from 'react'
-import { useAccount } from 'wagmi'
+import { ReactElement, useEffect, useState } from 'react'
+import { useAccount, useBalance, useReadContract, useSimulateContract } from 'wagmi'
+import { projectCheckTokenAddress, projectCheckTokenAbi, araTokenAddress } from '@/abis'
+import { erc20Abi, parseEther } from 'viem'
+
+// Blockchain parameters
+const projectId = 1 // FrogWars project ID on Check Token
+export const chainId = 59141
+const deadline = 1721408400 // 25 June
+const currency = 'WEF'
+const tax = 1.0 // percentage
 
 export default function Home() {
-  const { status } = useAccount()
+  const { status, chain } = useAccount()
+  const [goalAmount, setGoalAmount] = useState<bigint>(BigInt(0))
+  const [mintedAmount, setMintedAmount] = useState<bigint>(BigInt(0))
+  const [requiredAmount, setRequiredAmount] = useState<bigint>(BigInt(0))
+  const [goalReached, setGoalReached] = useState<boolean>(false)
+
+  const { data: projectInfo } = useReadContract({
+    query: {
+      enabled: chain?.id != undefined && status == 'connected',
+    },
+    address: projectCheckTokenAddress[chainId],
+    abi: projectCheckTokenAbi,
+    functionName: 'projects',
+    args: [BigInt(projectId)],
+  })
+
+  const { data: balanceData } = useBalance({
+    token: araTokenAddress[chainId],
+    address: projectCheckTokenAddress[chainId],
+  })
+
+  useEffect(() => {
+    if (!projectInfo?.[6]!) {
+      setGoalAmount(projectInfo?.[1]!)
+      setMintedAmount(projectInfo?.[5]!)
+    }
+  }, [projectInfo])
+
+  useEffect(() => {
+    if (!balanceData || !mintedAmount || !goalAmount) {
+      return
+    }
+    const val = goalAmount - mintedAmount
+    if (balanceData.value >= val) {
+      setGoalReached(true)
+    } else {
+      setRequiredAmount(val - balanceData.value)
+    }
+  }, [goalAmount, mintedAmount, balanceData])
 
   const details: DetailsParams = {
     video: '/FrogWars.mp4',
@@ -75,7 +122,11 @@ export default function Home() {
           role='alert'>
           <span className='font-medium'>No wallet!</span> Connect your wallet to see project details.
         </div>
-        <Details params={details} status={status} />
+        <Details
+          params={details}
+          status={status}
+          maydoneParams={{ goalReached, goal: goalAmount, required: requiredAmount, deadline, currency, tax }}
+        />
         <FundingInfo perks={details.perks} instructions={instructions} />
       </div>
     </div>

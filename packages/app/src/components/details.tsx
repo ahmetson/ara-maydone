@@ -1,12 +1,22 @@
+'use client'
 import type { NextPage } from 'next'
 import styles from './details.module.css'
 import { LinkComponent } from './LinkComponent'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { TokenQuantityInput, taxedAmount } from './TokenQuantityInput'
+import { formatBalance } from '@/utils/formatBalance'
+import { useAccount, useSimulateContract, useWaitForTransactionReceipt, useWriteContract } from 'wagmi'
+import { araTokenAddress, projectCheckTokenAddress } from '@/abis'
+import { erc20Abi, parseEther } from 'viem'
+import { chainId } from '@/app/projects/frog-wars/page'
+import { useNotifications } from '@/context/Notifications'
+import { useRouter } from 'next/navigation'
 
 export type DetailsType = {
   className?: string
   params?: DetailsParams
   status: 'disconnected' | 'connected' | 'reconnecting' | 'connecting'
+  maydoneParams?: MaydoneParams
 }
 
 export type DetailsParams = {
@@ -26,7 +36,79 @@ export type DetailsParams = {
   perks?: React.ReactElement
 }
 
-const Details: NextPage<DetailsType> = ({ className = '', params, status }) => {
+export type MaydoneParams = {
+  currency?: string
+  deadline?: number
+  goal?: bigint
+  required?: bigint
+  goalReached?: boolean
+  tax?: number
+}
+
+const Details: NextPage<DetailsType> = ({ className = '', params, status, maydoneParams }) => {
+  const [amount, setAmount] = useState('0.00')
+  const { Add } = useNotifications()
+
+  const { error: estimateError } = useSimulateContract({
+    address: araTokenAddress[chainId],
+    abi: erc20Abi,
+    functionName: 'transfer',
+    args: [projectCheckTokenAddress[chainId], taxedAmount(amount, maydoneParams?.tax)],
+  })
+  const router = useRouter()
+
+  const { data, writeContract } = useWriteContract()
+  const { chain } = useAccount()
+
+  const {
+    isLoading,
+    error: txError,
+    isSuccess: txSuccess,
+  } = useWaitForTransactionReceipt({
+    hash: data,
+  })
+
+  let percentage = '0'
+  let goalFloat = '0'
+  if (maydoneParams && maydoneParams.goal && maydoneParams.required) {
+    const goal = maydoneParams?.goal!
+    const required = maydoneParams?.required!
+    const perPercent = goal / BigInt(100)
+    const left = BigInt(goal) - BigInt(required)
+    percentage = (parseFloat(left.toString()) / parseFloat(perPercent.toString())).toFixed(2)
+    goalFloat = (goal / BigInt(1e18)).toString()
+    console.log(`Goal: ${goal}, required: ${required}, ${percentage}, float: ${goalFloat}`)
+  }
+
+  const handleSendTransation = () => {
+    if (estimateError) {
+      Add(`Transaction failed: ${estimateError.cause}`, {
+        type: 'error',
+      })
+      return
+    }
+    writeContract({
+      address: araTokenAddress[chainId],
+      abi: erc20Abi,
+      functionName: 'transfer',
+      args: [projectCheckTokenAddress[chainId], taxedAmount(amount, maydoneParams?.tax)],
+    })
+  }
+
+  useEffect(() => {
+    if (txSuccess) {
+      Add(`Transaction successful`, {
+        type: 'success',
+        href: chain?.blockExplorers?.default.url ? `${chain.blockExplorers.default.url}/tx/${data}` : undefined,
+      })
+      router.refresh()
+    } else if (txError) {
+      Add(`Transaction failed: ${txError.cause}`, {
+        type: 'error',
+      })
+    }
+  }, [txSuccess, txError])
+
   return (
     <div className={[styles.details, className].join(' ')}>
       <div className={styles.projectImageParent}>
@@ -75,25 +157,46 @@ const Details: NextPage<DetailsType> = ({ className = '', params, status }) => {
             {params?.owner}
           </a>
         </div>
-        <div className={styles.price}>$50</div>
+        <div className={styles.price}>
+          <label className='form-control w-full max-w-xs'>
+            <div className='label'>
+              <span className='label-text'>Enter your investment {maydoneParams?.currency}</span>
+            </div>
+            <TokenQuantityInput
+              onChange={setAmount}
+              quantity={amount}
+              maxValue={formatBalance(maydoneParams?.required ?? BigInt(0))}
+            />
+          </label>
+        </div>
         <div className={'mb-1 flex flex-col'}>
-          <p className='font-medium text-blue-700 dark:text-white'>Goal: 700$</p>
-          <p className='font-medium text-blue-700 dark:text-white'>Deadline: 25th June 2024</p>
+          <p className='font-medium text-blue-700 dark:text-white'>Goal: {goalFloat + ' ' + maydoneParams?.currency}</p>
+          <p className='font-medium text-blue-700 dark:text-white'>
+            Deadline: {new Date(maydoneParams?.deadline! * 1000).toISOString()}
+          </p>
         </div>
         <div className='w-full bg-gray-200 rounded-full dark:bg-gray-700'>
           <div
             className='bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full'
-            style={{ width: '45%' }}>
-            45%
+            style={maydoneParams?.goalReached ? { width: '100%' } : { width: percentage + '%' }}>
+            {maydoneParams?.goalReached ? '100%' : percentage + '%'}
           </div>
         </div>
         <div className={styles.description}>
           <p className={styles.frogWarsIs}>{params?.description}</p>
         </div>
         {status === 'connected' ? (
-          <button className={styles.button}>
-            <div className={styles.backThisProject}>Back this project</div>
-          </button>
+          maydoneParams?.goalReached ? (
+            <button className={styles.disabledButton} disabled>
+              <div className={styles.backThisProject}>Goal reached</div>
+            </button>
+          ) : (
+            <button className={styles.button} onClick={handleSendTransation}>
+              <div className={styles.backThisProject}>
+                {isLoading ? <span className='loading loading-dots loading-sm'></span> : 'Back this project'}
+              </div>
+            </button>
+          )
         ) : (
           <button className={styles.disabledButton} disabled>
             <div className={styles.backThisProject}>Connect Wallet</div>

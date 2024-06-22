@@ -1,5 +1,16 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { parseEther } from 'viem'
+
+export const taxedAmount = (amount: string, tax?: number) => {
+  if (!tax) {
+    return parseEther(amount)
+  }
+
+  let total = parseFloat(amount)
+  total += (total / 100) * tax
+  return parseEther(total.toString())
+}
 
 interface TokenQuantityInputProps {
   onChange: (amount: string) => void
@@ -48,7 +59,7 @@ export function TokenQuantityInput({
         type='text'
         placeholder='0.01'
         value={amount}
-        className='input input-bordered w-full max-w-xs'
+        className='input input-bordered w-full max-w-xs bg-slate-200'
         onChange={(e) => handleChange(e)}
       />
 
