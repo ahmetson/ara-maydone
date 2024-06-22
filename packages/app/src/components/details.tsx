@@ -7,10 +7,10 @@ import { TokenQuantityInput, taxedAmount } from './TokenQuantityInput'
 import { formatBalance } from '@/utils/formatBalance'
 import { useAccount, useSimulateContract, useWaitForTransactionReceipt, useWriteContract } from 'wagmi'
 import { araTokenAddress, projectCheckTokenAddress } from '@/abis'
-import { erc20Abi, parseEther } from 'viem'
-import { chainId } from '@/app/projects/frog-wars/page'
+import { erc20Abi } from 'viem'
 import { useNotifications } from '@/context/Notifications'
 import { useRouter } from 'next/navigation'
+import { FROG_WARS_CHAIN_ID } from '@/utils/projects'
 
 export type DetailsType = {
   className?: string
@@ -50,10 +50,10 @@ const Details: NextPage<DetailsType> = ({ className = '', params, status, maydon
   const { Add } = useNotifications()
 
   const { error: estimateError } = useSimulateContract({
-    address: araTokenAddress[chainId],
+    address: araTokenAddress[FROG_WARS_CHAIN_ID],
     abi: erc20Abi,
     functionName: 'transfer',
-    args: [projectCheckTokenAddress[chainId], taxedAmount(amount, maydoneParams?.tax)],
+    args: [projectCheckTokenAddress[FROG_WARS_CHAIN_ID], taxedAmount(amount, maydoneParams?.tax)],
   })
   const router = useRouter()
 
@@ -88,10 +88,10 @@ const Details: NextPage<DetailsType> = ({ className = '', params, status, maydon
       return
     }
     writeContract({
-      address: araTokenAddress[chainId],
+      address: araTokenAddress[FROG_WARS_CHAIN_ID],
       abi: erc20Abi,
       functionName: 'transfer',
-      args: [projectCheckTokenAddress[chainId], taxedAmount(amount, maydoneParams?.tax)],
+      args: [projectCheckTokenAddress[FROG_WARS_CHAIN_ID], taxedAmount(amount, maydoneParams?.tax)],
     })
   }
 

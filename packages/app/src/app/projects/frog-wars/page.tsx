@@ -2,16 +2,15 @@
 
 import styles from '@/assets/index.module.css'
 import { LinkComponent } from '@/components/LinkComponent'
-import Details, { DetailsParams, DetailsType } from '@/components/details'
+import Details, { DetailsParams } from '@/components/details'
 import FundingInfo from '@/components/funding-info'
 import { ReactElement, useEffect, useState } from 'react'
-import { useAccount, useBalance, useReadContract, useSimulateContract } from 'wagmi'
+import { useAccount, useBalance, useReadContract } from 'wagmi'
 import { projectCheckTokenAddress, projectCheckTokenAbi, araTokenAddress } from '@/abis'
-import { erc20Abi, parseEther } from 'viem'
+import { FROG_WARS_CHAIN_ID } from '@/utils/projects'
 
 // Blockchain parameters
 const projectId = 1 // FrogWars project ID on Check Token
-export const chainId = 59141
 const deadline = 1721408400 // 25 June
 const currency = 'WEF'
 const tax = 1.0 // percentage
@@ -27,15 +26,15 @@ export default function Home() {
     query: {
       enabled: chain?.id != undefined && status == 'connected',
     },
-    address: projectCheckTokenAddress[chainId],
+    address: projectCheckTokenAddress[FROG_WARS_CHAIN_ID],
     abi: projectCheckTokenAbi,
     functionName: 'projects',
     args: [BigInt(projectId)],
   })
 
   const { data: balanceData } = useBalance({
-    token: araTokenAddress[chainId],
-    address: projectCheckTokenAddress[chainId],
+    token: araTokenAddress[FROG_WARS_CHAIN_ID],
+    address: projectCheckTokenAddress[FROG_WARS_CHAIN_ID],
   })
 
   useEffect(() => {

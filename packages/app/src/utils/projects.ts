@@ -13,3 +13,5 @@ export type Funding = {}
 export const funding: { [key: string]: Funding } = {
   wagmi: {},
 }
+
+export const FROG_WARS_CHAIN_ID = 59141
