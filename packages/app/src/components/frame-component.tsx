@@ -10,16 +10,20 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = '' }) => {
     <section className={[styles.portfolioInner, className].join(' ')}>
       <div className={styles.frameParent}>
         <div className={styles.description}>
-          <h1 className={styles.projectRealizations}>Project Realizations</h1>
           <div className={styles.inThisWebContainer}>
-            <p className={styles.inThisWeb}>
-              In this web page we turn ideas into web projects. Ideas turn into project only after getting it’s fund.
-            </p>
-            <p className={styles.ifYouWant}>
-              If you want to turn a idea to page, head to forum, and propose a project in the “2 Maydone” tag. Create a
-              poll with the voting for 10 days. If it gets yes, then I will create a web page
-            </p>
+            <h6 className={styles.ifYouWant}>
+              Want to start a project with other people? Browse ideas in{' '}
+              <a href='https://forum.ara.foundation/t/1-Aurora' className='hover:underline text-blue-600'>
+                1 Aurora idea space
+              </a>
+              . Pick any idea; Prepare a project plan. Then post it in the Forum with the{' '}
+              <a href='https://forum.ara.foundation/t/2-Maydone' className='hover:underline text-blue-600'>
+                2 Maydone
+              </a>{' '}
+              tag. Add a voting poll for 10 days. After voting you will see the project here.
+            </h6>
           </div>
+          <h3 className={'text-red-500'}>Active projects</h3>
         </div>
       </div>
     </section>

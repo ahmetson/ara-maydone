@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
-import Main from "../components/main";
-import Details from "../components/details";
-import FundingInfo from "../components/funding-info";
-import styles from "./index.module.css";
+import type { NextPage } from 'next'
+import Main from '@/components/main'
+import Details from '@/components/details'
+import FundingInfo from '@/components/funding-info'
+import styles from './index.module.css'
 
 const ProductDetailPage: NextPage = () => {
   return (
@@ -20,15 +20,13 @@ const ProductDetailPage: NextPage = () => {
         </div>
         <footer className={styles.araProjectRealizationsContainer}>
           <p className={styles.araProjectRealizations}>
-            Ara project realizations.
+            Ara Maydone &ndash; is the place where we start a project from any idea you have.
           </p>
-          <p className={styles.contactMedetarafoundationF}>
-            Contact medet@ara.foundation for questions!
-          </p>
+          <p className={styles.contactMedetarafoundationF}>Contact medet@ara.foundation for questions!</p>
         </footer>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProductDetailPage;
+export default ProductDetailPage

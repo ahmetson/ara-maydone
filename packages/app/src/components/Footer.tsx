@@ -12,7 +12,7 @@ export function Footer() {
         <div className={styles.divider} />
       </div>
       <footer className={styles.araProjectRealizationsContainer}>
-        <p className={styles.araProjectRealizations}>Ara project realizations.</p>
+        <p className={styles.araProjectRealizations}>Ara Maydone &ndash; funding projects.</p>
         <p className={styles.contactMedetarafoundationF}>Contact medet@ara.foundation for questions!</p>
       </footer>
     </div>

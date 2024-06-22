@@ -20,8 +20,8 @@ const FundingInfo: NextPage<FundingInfoType> = ({ className = '' }) => {
         </p>
         <p className={styles.blankLine}>&nbsp;</p>
         <p className={styles.ifYouSee}>
-          If you see no progress there, then you have a full right to stop funding the maintainers. Because maintainers
-          don't get all the money instantly, but only as they progress and show it to you.
+          {`If you see no progress there, then you have a full right to stop funding the maintainers. Because maintainers
+          don't get all the money instantly, but only as they progress and show it to you.`}
         </p>
       </div>
       <div className={styles.instructionsParent}>
@@ -34,7 +34,7 @@ const FundingInfo: NextPage<FundingInfoType> = ({ className = '' }) => {
               </li>
               <li className={styles.requiredMore50}>- Required more 50$ worth ETH cryptocurrency.</li>
               <li className={styles.requiresEthOn}>
-                - Requires ETH on Linea blockchain. If you don't have then bridge from Ethereum to Linea on:{' '}
+                {`- Requires ETH on Linea blockchain. If you don't have then bridge from Ethereum to Linea on` + ' '}
                 <LinkComponent
                   href='https://bridge.linea.build'
                   className='text-blue-600 dark:text-blue-500 hover:underline'>

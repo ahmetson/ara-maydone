@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Ara Maydone</title>
+        <title>Ara Maydone &ndash; a launchpad for ideas on Internet</title>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width' />
       </Head>
       <Component {...pageProps} />

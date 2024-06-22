@@ -8,10 +8,8 @@ if (!WALLETCONNECT_PROJECT_ID) {
   console.warn('You need to provide a NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID env variable')
 }
 
-export type Funding {
-  
-}
+export type Funding = {}
 
-export const funding: {[key: string]: Funding} = {
-  "wagmi": {}
-} 
+export const funding: { [key: string]: Funding } = {
+  wagmi: {},
+}

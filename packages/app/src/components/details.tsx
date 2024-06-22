@@ -44,7 +44,7 @@ const Details: NextPage<DetailsType> = ({ className = '' }) => {
           </div>
         </div>
         <hr className='h-px my-8 bg-gray-200 border-0 dark:bg-gray-700' style={{ width: '100%' }} />
-        <div className={styles.whyItsSafe}>Why it's safe to fund?</div>
+        <div className={styles.whyItsSafe}>{`Why it's safe to fund?`}</div>
       </div>
       <div className={styles.funding}>
         <h1 className={styles.productName}>Frog Wars</h1>

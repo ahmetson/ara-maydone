@@ -1,28 +1,21 @@
-import type { NextPage } from "next";
-import styles from "./main.module.css";
+import type { NextPage } from 'next'
+import styles from './main.module.css'
 
 export type MainType = {
-  className?: string;
-};
+  className?: string
+}
 
-const Main: NextPage<MainType> = ({ className = "" }) => {
+const Main: NextPage<MainType> = ({ className = '' }) => {
   return (
-    <header className={[styles.main, className].join(" ")}>
+    <header className={[styles.main, className].join(' ')}>
       <div className={styles.content}>
         <div className={styles.left}>
           <div className={styles.araLogoParent}>
             <div className={styles.araLogo}>
               <div className={styles.ara}>Ara</div>
-              <img
-                className={styles.araLogo1Icon}
-                loading="lazy"
-                alt=""
-                src="/ara-logo-1@2x.png"
-              />
+              <img className={styles.araLogo1Icon} loading='lazy' alt='' src='/ara-logo-1@2x.png' />
             </div>
-            <div className={styles.araProjectRealizations}>
-              Ara project realizations
-            </div>
+            <div className={styles.araProjectRealizations}>Maydone</div>
           </div>
         </div>
         <nav className={styles.navigation}>
@@ -41,7 +34,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
         </nav>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

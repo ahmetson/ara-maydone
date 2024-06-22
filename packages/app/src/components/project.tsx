@@ -13,8 +13,8 @@ const Project: NextPage<ProjectType> = ({ className = '' }) => {
         <Card
           image='/image1@2x.png'
           frogWars='Frog Wars'
-          frogWarsIsAFightingGameIn='Frog Wars is a fighting game. Invest and help to build it.'
-          fundedEndsIn25thJune2024='62% Funded | Ends in 25th June 2024'
+          frogWarsIsAFightingGameIn='The first meme coin with the fighting game'
+          fundedEndsIn25thJune2024='Fund until 25/06/2024 to ship release in 15/07/2024'
           url='/projects/frog-wars'
         />
         {/* <Card

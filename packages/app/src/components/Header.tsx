@@ -20,7 +20,7 @@ export const Header: NextPage<MainType> = ({ className = '' }) => {
                 <div className={styles.ara}>. . . . .</div>
                 <img className={styles.araLogo1Icon} loading='lazy' alt='' src='/ara-logo-1@2x.png' />
               </div>
-              <div className={styles.araProjectRealizations}>Ara project realizations</div>
+              <div className={styles.araProjectRealizations}>Maydone Launchpad</div>
             </div>
           </LinkComponent>
         </div>
