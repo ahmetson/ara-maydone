@@ -11,12 +11,15 @@ export default defineConfig({
       deployments: {
         ARAToken: {
           59141: '0xe40c7856B6D0e1B01dECBF9976BB706B9Cd1229f', // WEF Linea (DAO of FrogWars)
+          59144: '0x889400fb9bde04bfdf353cc718fed3d6ddcf735f',
         },
         ProjectCheckToken: {
           59141: '0x0011764BfeeB78859dD044023AF6b6b6e17715f7', // FrogWars check token
+          59144: '0x1cEB3c60e2E74D6FDDAcDFEE23b8f2C91BBB6996',
         },
         ProjectMainToken: {
           59141: '0x9e90f6ad0E1916995b8fd6A0AEE36732f7A2A20a', // FrogWars main token
+          59144: '0x6921482cEf17ecd8382A96B4e6E3749a9B6fcFd0',
         },
       },
     }),
