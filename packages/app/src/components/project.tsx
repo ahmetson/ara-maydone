@@ -18,13 +18,15 @@ const Project: NextPage<ProjectType> = ({ className = '' }) => {
           fundedEndsIn25thJune2024='Fund until 25/06/2024 to ship release in 15/07/2024'
           url='/projects/frog-wars'
         />
-        {/* <Card
-          image='/image-1@2x.png'
-          frogWars='Ara'
-          frogWarsIsAFightingGameIn='Ara itself, fund it'
-          fundedEndsIn25thJune2024='62% Funded | Ends in 25th June 2026'
-          url='/projects/ara'
-        /> */}
+        {
+          <Card
+            image='/ara_screen.png'
+            frogWars='Ara'
+            frogWarsIsAFightingGameIn='Gather people online, and work on your idea'
+            fundedEndsIn25thJune2024='Fund until 25th June 2026, to get 100x return'
+            url='/projects/ara'
+          />
+        }
       </div>
     </section>
   )

@@ -26,11 +26,10 @@ const Card: NextPage<CardType> = ({
       {video ? (
         <video className={styles.imageIcon} width='740' height='480' preload='auto' autoPlay loop muted playsInline>
           <source src={video} type='video/mp4' />
-          {/* <track src='/path/to/captions.vtt' kind='subtitles' srcLang='en' label='English' /> */}
           Your browser does not support the video tag.
         </video>
       ) : (
-        <img className={styles.imageIcon} loading='lazy' alt='' src={image} />
+        <img width='740px' height='420px' className={styles.imageIcon} loading='lazy' alt='' src={image} />
       )}
       <div className={styles.copy}>
         <div className={styles.frogWars}>{frogWars}</div>

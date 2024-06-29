@@ -6,6 +6,7 @@
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
+  height: 420px;
 }
 .frogWars,
 .frogWarsIs,
