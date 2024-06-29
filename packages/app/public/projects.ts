@@ -266,3 +266,5 @@ export const Ara: Project = {
     },
   },
 }
+
+export const Projects = [Ara, FrogWars]
